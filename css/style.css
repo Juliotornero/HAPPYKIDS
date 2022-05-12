@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&family=Libre+Caslon+Display&family=Ubuntu+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.header-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-tittle{
+    text-align: center;
+    /* letter-spacing: 5px; */
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold   ;
+    font-size: 35px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.icons, header{
+    z-index: 3;
+}
+
+/*  */
+.noshow{
+    display: none;
+}
+
+.header-container .icons .noshow{
+    display: none;
+}
+
+.material-icons.md-30 { 
+    font-size: 32px; 
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #E2B0FF;
+}
+/*  */
+
+/* General Nav  */
+
+.navegacion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold   ;
+    font-size: 20px;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.navegacion .nav-items{
+    margin-top: 250px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+    width: 290px;
+    /* margin-left: auto; */
+}
+
+
+.nav-items li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+}
+
+
+a:link, a:visited, a:active {
+    color: white;
+}
+
+.nav-items li a:hover{
+    /* transform: scale(1.10); transition: all 0.5s; */
+}
+
+
+/* User & Shopping Car*/
+
+.user{
+    margin-top: 30px;
+}
+
+.shopping-car, .user{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping-car, .user span{
+    margin-right: 5px;
+}
+
+.circle{
+    background-color: black;
+    border-radius: 50%;
+    font-weight: lighter;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.user i{
+    color: black;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+.material-icons-outlined.car, .u { 
+    color: black
+}
+/*  */
+
+/*  Search box */
+
+.search-box{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input{
+    width: 80px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* POSICION Y LAYOUT */  
+/* VISIBILIDAD */
+/* MODELO DE CAJA*/
+/* TIPOGRAFIA */
+/* VISUAL */
+/* MISCELANEAS */

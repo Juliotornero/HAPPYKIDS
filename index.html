@@ -23,10 +23,63 @@
       media="screen and (min-width: 1440px)"
     />
 
+    <!-- https://material.io/resources/icons/?style=baseline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=outline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=round -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+    rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=sharp -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
+    rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=twotone -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
+    rel="stylesheet">
+    
 </head>
 <body>
     
+  <div class="header-container">
+
+      <header>
+          <h1 href="#" class="header-tittle">Happy Kids</h1>
+      </header>
+
+      <div class="icons">
+        <span class="material-icons md-30 menu" onclick="abrir()">menu</span>
+        <span class="material-icons md-30 close-menu noshow" onclick="cerrar()">close</span>
+      </div>
+
+<!-- ********************************************************************************************** -->
+      <nav class="navegacion noshow">
+        <ul class="nav-items">
+
+            <li class="search-box">
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="Search...">
+            </li>  
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop Colection</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Contact</a></li>
+            
+            <li class="user">
+                <span class="material-icons-outlined u">account_circle</span>
+                <i>Log in </i>
+            </li>
+
+            <li class="shopping-car">
+              <span class="material-icons-outlined car">shopping_cart</span>
+                <div class="circle">0</div>
+            </li>
   
+        </ul>
+      </nav>
+  </div>
 
 
 
@@ -34,6 +87,6 @@
 
 
 
-
+<script src="js/code.js"></script>
 </body>
 </html>
