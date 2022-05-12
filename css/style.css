@@ -21,13 +21,13 @@ body{
 
 .header-tittle{
     text-align: center;
-    /* letter-spacing: 5px; */
     font-family: 'Ubuntu Condensed', sans-serif;
     font-weight: bold   ;
     font-size: 35px;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: linear-gradient(to right, #c3b9e0, #ecb6cd);
     -webkit-background-clip: text;
     color: transparent;  
+    
 }
 
 .icons, header{
@@ -48,7 +48,7 @@ body{
     font-weight: bold;
     margin: 0;
     padding: 0;
-    color: #E2B0FF;
+    color: #e1c5f1;   
 }
 /*  */
 
@@ -65,20 +65,18 @@ body{
     width: 100vw;
     height: 100vh;
     z-index: 2;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 .navegacion .nav-items{
-    margin-top: 250px;
+    margin-top: 140px;
     margin-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     text-transform: uppercase;
-    /* border: 1px solid red; */
     width: 290px;
-    /* margin-left: auto; */
 }
 
 
@@ -96,15 +94,12 @@ a:link, a:visited, a:active {
     color: white;
 }
 
-.nav-items li a:hover{
-    /* transform: scale(1.10); transition: all 0.5s; */
-}
 
 
 /* User & Shopping Car*/
 
 .user{
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .shopping-car, .user{
@@ -117,7 +112,8 @@ a:link, a:visited, a:active {
 }
 
 .circle{
-    background-color: black;
+    background-color: white;
+    color: rgb(122, 117, 117);
     border-radius: 50%;
     font-weight: lighter;
     width: 20px;
@@ -126,30 +122,38 @@ a:link, a:visited, a:active {
 }
 
 .user i{
-    color: black;
+    color: white;
     font-weight: lighter;
     text-transform: capitalize;
+    font-style: normal;
 }
 
 .material-icons-outlined.car, .u { 
-    color: black
+    color: white;
 }
 /*  */
 
 /*  Search box */
 
+.nav-items li .material-icons-outlined.search{
+    margin-right: 5px;
+    font-size: 27px;
+}
+
 .search-box{
-    /* border: 1px solid black; */
+    margin-bottom: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .search-box input{
-    width: 80px;
+    width: 200px;
     border: 0;
     outline: none;
     background-color: transparent;
+    color: white;
+    font-size: 16px;
 }
 
 
