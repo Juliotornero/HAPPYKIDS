@@ -8,8 +8,7 @@
 }
 
 body{
-    margin-right: 15px;
-    margin-left: 15px;
+
 }
 
 .header-container{
@@ -17,6 +16,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .header-tittle{
@@ -157,24 +158,70 @@ a:link, a:visited, a:active {
 }
 
 
+/* SECTIONS */
+.main-sections{
+    margin-top: 20px; 
+}
 
 
+/* first section */
+
+.first-section{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cover-page img{
+    width: 100%;
+}
+
+.first-section .buttom{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: lighter;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.first-section .buttom span{
+    margin-right: 7px;
+}
+
+.material-icons.next{
+    position: absolute;
+    top: 47%;
+    right: 10px;
+    color: rgb(116, 111, 111);
+}
+
+.material-icons.previous{
+    position: absolute;
+    top: 47%;
+    left: 10px;
+    color: rgb(116, 111, 111);
+}
+
+.social-icons{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.social-icons img{
+    width: 23px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Second section */
 
 
 
