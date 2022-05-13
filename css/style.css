@@ -1,15 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&family=Libre+Caslon+Display&family=Ubuntu+Condensed&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&family=Libre+Caslon+Display&family=Roboto:wght@100;300&family=Ubuntu+Condensed&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-
-}
 
 .header-container{
     margin-top: 20px;
@@ -186,7 +184,7 @@ a:link, a:visited, a:active {
     padding: 2px;
     font-size: 13px;
     font-weight: lighter;
-
+    cursor: pointer;
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -223,18 +221,90 @@ a:link, a:visited, a:active {
 
 /* Second section */
 
+.second-section{
+    margin-top: 20px;
+}
+
+.subtittle{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+}
 
 
 
+.item{
+    max-width: 280px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-img{
+    text-align: center;
+} 
+
+.item-img img{
+    width: 70%; 
+}
+
+.item-info{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(116, 113, 113);
+    margin-bottom: 5px;
+}
+
+.item-info p{
+    margin: 7px 0;
+}
+
+.item-buttom{
+    border: 1px solid black;
+    width: 220px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.item-buttom:hover{
+    background-color: #333;
+    color: white;
+    transition: 0.7s;
+}
 
 
+.shop-buttom{
+    border: 1px solid black;
+    margin: 40px auto;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
+.shop-buttom:hover{
+    background-color: #333;
+    color: white;
+    transition: 0.7s;
+}
 
 
 
