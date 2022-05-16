@@ -1,0 +1,104 @@
+.icons{
+    display: none;
+}
+
+.noshow{
+    display: block;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.header-tittle{
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-size: 55px;
+    color: black;  
+    letter-spacing: 15px;
+    margin-bottom: 35px;
+}
+
+/* General Nav  */
+
+.navegacion{
+    position: relative;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    color: black;
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+
+.navegacion .nav-items{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.nav-items li{
+    padding: 0px 0px;
+    margin: 0 30px;
+}
+
+a:link, a:visited, a:active {
+    color: black;
+}
+
+/* User & Shopping Car*/
+
+.shopping-car, .user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-weight: lighter;
+    width: 20px;
+    height: 20px;
+}
+
+.user i{
+    color: black;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.material-icons-outlined.car, .u { 
+    color: black;
+}
+
+/*  Search box */
+
+.nav-items li .material-icons-outlined.search{
+    font-size: 20px;
+}
+
+.search-box input{
+    width: 170px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+}
+
+.search-box input::placeholder{
+    color: black;
+    font-size: 15px;
+}
